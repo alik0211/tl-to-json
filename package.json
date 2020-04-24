@@ -1,7 +1,23 @@
 {
   "name": "tl-to-json",
   "version": "1.0.0",
+  "description": "Convert TL (Type Language) into JSON",
+  "keywords": [
+    "tl",
+    "type-language",
+    "type",
+    "language",
+    "cli",
+    "json",
+    "telegram",
+    "library"
+  ],
   "main": "index.js",
   "bin": "./bin.js",
+  "homepage": "https://github.com/alik0211/tl-to-json#readme",
+  "bugs": {
+    "url": "https://github.com/alik0211/tl-to-json/issues"
+  },
+  "author": "Ali Gasymov <alik0211alik@gmail.com> (https://gasymov.com/)",
   "license": "GPL-3.0"
 }
