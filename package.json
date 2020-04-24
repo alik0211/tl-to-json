@@ -1,0 +1,7 @@
+{
+  "name": "tl-to-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "license": "GPL-3.0"
+}
