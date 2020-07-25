@@ -110,10 +110,14 @@ class Parser {
     });
   }
 
-  getJSON() {
+  getJS() {
     const { constructors, methods } = this;
 
-    return JSON.stringify({ constructors, methods });
+    return { constructors, methods };
+  }
+
+  getJSON() {
+    return JSON.stringify(this.getJS());
   }
 }
 
